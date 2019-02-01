@@ -3,8 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        Person Igor = Person.createPerson(16, "Igor"); //вызов метода-фабрики
+        Person Igor = Person.createPerson(16, "Vadim"); //вызов метода-фабрики
         System.out.println(Igor);
     }
 }
@@ -12,7 +11,6 @@ public class Main {
 class Person{
     String name;
     int age;
-    int a;
 
     public Person(int age, String name) {
         this.age = age;
